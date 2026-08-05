@@ -1,0 +1,11 @@
+# Floors reflect the versions this app is verified against. `width="stretch"`
+# on dataframes requires Streamlit >= 1.49; yfinance >= 1.0 changed FastInfo and
+# the fundamentals payload, so older releases will not populate ETF fields.
+streamlit>=1.49,<2
+pandas>=2.2,<4
+numpy>=1.26,<3
+plotly>=5.24,<7
+yfinance>=1.0,<2
+requests>=2.32,<3
+vaderSentiment>=3.3.2
+python-dateutil>=2.9

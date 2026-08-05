@@ -1,0 +1,18 @@
+ticker,name,sleeve,target_weight,max_weight,thesis,risk_class,units,avg_cost_aud
+QQQM,Invesco NASDAQ 100 ETF,Core ETF,0.15,0.20,Low-cost core exposure to profitable Nasdaq growth,core,0,0
+IWO,iShares Russell 2000 Growth ETF,Small-cap ETF,0.07,0.10,Diversified small-cap growth participation,aggressive,0,0
+NVDA,NVIDIA,AI semiconductors,0.08,0.10,AI compute platform with exceptional growth and margins,aggressive,0,0
+ORCL,Oracle,Cloud infrastructure,0.05,0.08,Cloud and AI infrastructure backlog with durable enterprise base,aggressive,0,0
+AMZN,Amazon,Cloud and commerce,0.07,0.09,AWS growth plus operating leverage across commerce,aggressive,0,0
+GOOGL,Alphabet,AI and digital platforms,0.07,0.09,High-cash-generation platform with AI optionality,aggressive,0,0
+META,Meta Platforms,AI and digital advertising,0.06,0.08,Strong cash generation and AI-driven engagement monetisation,aggressive,0,0
+AVGO,Broadcom,AI infrastructure,0.06,0.08,Custom accelerators networking and infrastructure software,aggressive,0,0
+ANET,Arista Networks,Cloud networking,0.05,0.07,High-speed data-centre networking beneficiary,aggressive,0,0
+CRWD,CrowdStrike,Cybersecurity,0.05,0.07,Cloud-native security platform with recurring revenue,aggressive,0,0
+DDOG,Datadog,Observability software,0.04,0.06,Cloud observability and AI workload monitoring,aggressive,0,0
+MELI,MercadoLibre,Latin American commerce and fintech,0.05,0.07,Long-run commerce and payments penetration growth,aggressive,0,0
+NU,Nu Holdings,Fintech,0.04,0.06,Low-cost digital banking growth across Latin America,speculative,0,0
+RKLB,Rocket Lab,Space systems,0.04,0.05,Launch and space-systems growth with asymmetric upside,speculative,0,0
+OKLO,Oklo,Advanced nuclear,0.03,0.04,Advanced nuclear optionality tied to data-centre power demand,speculative,0,0
+VRTX,Vertex Pharmaceuticals,Biotechnology,0.05,0.07,Profitable biotech core with pipeline optionality,aggressive,0,0
+CASH,Cash reserve,Cash,0.04,0.40,Dry powder adjusted by market regime,cash,0,0
