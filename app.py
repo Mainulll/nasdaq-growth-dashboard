@@ -67,6 +67,23 @@ def load_prices(tickers: tuple[str, ...], period: str = "2y"):
 def load_fundamentals(tickers: tuple[str, ...]):
     return fundamentals_table(tickers)
 
+@st.cache_data(ttl=120, show_spinner=False)
+def load_quotes(tickers: tuple[str, ...], finnhub_key: str | None):
+    """Cache live quotes.
+
+    Streamlit reruns the whole script on every widget interaction, so an
+    uncached call here fired one Finnhub request per holding on each keystroke
+    in the holdings editor — enough to exhaust the 60 requests/minute free tier
+    within seconds. Two minutes is fresh enough for a monthly-contribution tool.
+    """
+    return finnhub_quotes(tickers, finnhub_key)
+
+
+@st.cache_data(ttl=900, show_spinner=False)
+def load_audusd():
+    return current_audusd()
+
+
 @st.cache_data(ttl=900, show_spinner=False)
 def load_news(symbol: str, company: str, finnhub_key: str | None):
     frames = []
@@ -117,7 +134,7 @@ all_price_tickers = tuple(sorted(set(market_tickers) | set(BENCHMARK_WEIGHTS)))
 prices, price_status = load_prices(all_price_tickers)
 fundamentals = load_fundamentals(market_tickers)
 
-live, live_status = finnhub_quotes(market_tickers, finnhub_key)
+live, live_status = load_quotes(market_tickers, finnhub_key)
 delayed_quotes = prices.ffill().iloc[-1] if not prices.empty else pd.Series(dtype=float)
 if not live.empty and "price" in live.columns:
     # Backfill any symbol Finnhub could not price, rather than dropping it to a
@@ -126,7 +143,7 @@ if not live.empty and "price" in live.columns:
 else:
     quotes = delayed_quotes
 
-audusd, fx_status = current_audusd()
+audusd, fx_status = load_audusd()
 if fx_status.source == "Fallback constant":
     st.error(fx_status.message)
 regime = market_regime(prices)
