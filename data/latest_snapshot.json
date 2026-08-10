@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T22:07:17.959870+00:00",
+  "generated_at": "2026-08-10T22:07:56.584649+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,26 +9,26 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7070635557174683,
-  "fx_status": "AUD/USD 0.7071 live",
+  "audusd": 0.7057162523269653,
+  "fx_status": "AUD/USD 0.7057 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
     {
       "ticker": "QQQM",
-      "score": 92.0,
+      "score": 95.0,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "IWO",
-      "score": 84.0,
+      "score": 83.0,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "NVDA",
-      "score": 100.0,
+      "score": 99.0,
       "action": "Add",
       "warnings": [
         "Very high beta"
@@ -45,7 +45,7 @@
     },
     {
       "ticker": "AMZN",
-      "score": 77.0,
+      "score": 78.0,
       "action": "Add",
       "warnings": []
     },
@@ -84,7 +84,7 @@
     },
     {
       "ticker": "DDOG",
-      "score": 82.0,
+      "score": 87.0,
       "action": "Add",
       "warnings": [
         "Forward P/E embeds high expectations"
@@ -98,7 +98,7 @@
     },
     {
       "ticker": "NU",
-      "score": 62.0,
+      "score": 61.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Speculative sleeve: execution and financing risk dominate"
@@ -106,7 +106,7 @@
     },
     {
       "ticker": "RKLB",
-      "score": 33.0,
+      "score": 32.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
@@ -119,15 +119,19 @@
     },
     {
       "ticker": "OKLO",
-      "score": 15.0,
+      "score": 8.0,
       "action": "Reduce / avoid",
       "warnings": [
-        "Speculative sleeve: execution and financing risk dominate"
+        "Operating margin is negative",
+        "Free cash flow is negative",
+        "Price-to-sales is elevated",
+        "Speculative sleeve: execution and financing risk dominate",
+        "Negative operating margin and free cash flow"
       ]
     },
     {
       "ticker": "VRTX",
-      "score": 76.0,
+      "score": 77.0,
       "action": "Add",
       "warnings": []
     }
@@ -136,23 +140,23 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 920.4,
-      "reason": "Underweight by 15.0%; critic score 92",
+      "allocation_aud": 948.95,
+      "reason": "Underweight by 15.0%; critic score 95",
       "risk_class": "core",
-      "agent_score": 92.0
+      "agent_score": 95.0
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 559.77,
-      "reason": "Underweight by 8.0%; critic score 100",
+      "allocation_aud": 539.84,
+      "reason": "Underweight by 8.0%; critic score 99",
       "risk_class": "aggressive",
-      "agent_score": 100.0
+      "agent_score": 99.0
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom",
-      "allocation_aud": 419.83,
+      "allocation_aud": 411.21,
       "reason": "Underweight by 6.0%; critic score 100",
       "risk_class": "aggressive",
       "agent_score": 100.0
@@ -171,7 +175,7 @@
       "ticker": "QQQM",
       "action": "HOLD",
       "sell_reason": "Core index sleeve: hold through drawdowns",
-      "critic_score": 92.0,
+      "critic_score": 95.0,
       "current_weight": 0.0,
       "max_weight": 0.2
     },
@@ -179,7 +183,7 @@
       "ticker": "IWO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 84.0,
+      "critic_score": 83.0,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -187,7 +191,7 @@
       "ticker": "NVDA",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 100.0,
+      "critic_score": 99.0,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -203,7 +207,7 @@
       "ticker": "AMZN",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 77.0,
+      "critic_score": 78.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -251,7 +255,7 @@
       "ticker": "DDOG",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 82.0,
+      "critic_score": 87.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
@@ -267,7 +271,7 @@
       "ticker": "NU",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 62.0,
+      "critic_score": 61.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
@@ -275,7 +279,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 33.0,
+      "critic_score": 32.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
@@ -283,7 +287,7 @@
       "ticker": "OKLO",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 15.0,
+      "critic_score": 8.0,
       "current_weight": 0.0,
       "max_weight": 0.04
     },
@@ -291,7 +295,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 76.0,
+      "critic_score": 77.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
