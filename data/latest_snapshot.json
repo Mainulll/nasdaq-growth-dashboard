@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T22:11:57.255499+00:00",
+  "generated_at": "2026-08-13T22:12:46.511229+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7063144445419312,
-  "fx_status": "AUD/USD 0.7063 live",
+  "audusd": 0.7062146663665771,
+  "fx_status": "AUD/USD 0.7062 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -36,7 +36,7 @@
     },
     {
       "ticker": "ORCL",
-      "score": 64.0,
+      "score": 66.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Free cash flow is negative",
@@ -69,7 +69,7 @@
     },
     {
       "ticker": "ANET",
-      "score": 86.0,
+      "score": 89.0,
       "action": "Add",
       "warnings": []
     },
@@ -98,7 +98,7 @@
     },
     {
       "ticker": "NU",
-      "score": 61.0,
+      "score": 62.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Speculative sleeve: execution and financing risk dominate"
@@ -106,7 +106,7 @@
     },
     {
       "ticker": "RKLB",
-      "score": 32.0,
+      "score": 33.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
@@ -199,7 +199,7 @@
       "ticker": "ORCL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 64.0,
+      "critic_score": 66.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -239,7 +239,7 @@
       "ticker": "ANET",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 86.0,
+      "critic_score": 89.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -271,7 +271,7 @@
       "ticker": "NU",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 61.0,
+      "critic_score": 62.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
@@ -279,7 +279,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 32.0,
+      "critic_score": 33.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
