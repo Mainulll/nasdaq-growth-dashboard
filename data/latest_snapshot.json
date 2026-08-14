@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T22:12:46.511229+00:00",
+  "generated_at": "2026-08-14T21:51:23.786728+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7062146663665771,
-  "fx_status": "AUD/USD 0.7062 live",
+  "audusd": 0.708666980266571,
+  "fx_status": "AUD/USD 0.7087 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -36,7 +36,7 @@
     },
     {
       "ticker": "ORCL",
-      "score": 66.0,
+      "score": 64.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Free cash flow is negative",
@@ -45,7 +45,7 @@
     },
     {
       "ticker": "AMZN",
-      "score": 77.0,
+      "score": 78.0,
       "action": "Add",
       "warnings": []
     },
@@ -98,7 +98,7 @@
     },
     {
       "ticker": "NU",
-      "score": 62.0,
+      "score": 63.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Speculative sleeve: execution and financing risk dominate"
@@ -131,7 +131,7 @@
     },
     {
       "ticker": "VRTX",
-      "score": 77.0,
+      "score": 76.0,
       "action": "Add",
       "warnings": []
     }
@@ -199,7 +199,7 @@
       "ticker": "ORCL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 66.0,
+      "critic_score": 64.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -207,7 +207,7 @@
       "ticker": "AMZN",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 77.0,
+      "critic_score": 78.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -271,7 +271,7 @@
       "ticker": "NU",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 62.0,
+      "critic_score": 63.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
@@ -295,7 +295,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 77.0,
+      "critic_score": 76.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
