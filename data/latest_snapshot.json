@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T21:51:23.786728+00:00",
+  "generated_at": "2026-08-17T21:52:03.340523+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.708666980266571,
-  "fx_status": "AUD/USD 0.7087 live",
+  "audusd": 0.7106310725212097,
+  "fx_status": "AUD/USD 0.7106 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -45,7 +45,7 @@
     },
     {
       "ticker": "AMZN",
-      "score": 78.0,
+      "score": 77.0,
       "action": "Add",
       "warnings": []
     },
@@ -131,7 +131,7 @@
     },
     {
       "ticker": "VRTX",
-      "score": 76.0,
+      "score": 77.0,
       "action": "Add",
       "warnings": []
     }
@@ -207,7 +207,7 @@
       "ticker": "AMZN",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 78.0,
+      "critic_score": 77.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -295,7 +295,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 76.0,
+      "critic_score": 77.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
