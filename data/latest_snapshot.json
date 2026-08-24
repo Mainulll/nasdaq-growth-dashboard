@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T21:50:43.940098+00:00",
+  "generated_at": "2026-08-24T21:54:47.304020+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,14 +9,14 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7174630165100098,
-  "fx_status": "AUD/USD 0.7175 live",
+  "audusd": 0.7151541113853455,
+  "fx_status": "AUD/USD 0.7152 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
     {
       "ticker": "QQQM",
-      "score": 95.0,
+      "score": 92.0,
       "action": "Add",
       "warnings": []
     },
@@ -36,7 +36,7 @@
     },
     {
       "ticker": "ORCL",
-      "score": 64.0,
+      "score": 66.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Free cash flow is negative",
@@ -45,7 +45,7 @@
     },
     {
       "ticker": "AMZN",
-      "score": 79.0,
+      "score": 77.0,
       "action": "Add",
       "warnings": []
     },
@@ -92,7 +92,7 @@
     },
     {
       "ticker": "MELI",
-      "score": 54.0,
+      "score": 56.0,
       "action": "Hold / monitor",
       "warnings": []
     },
@@ -106,7 +106,7 @@
     },
     {
       "ticker": "RKLB",
-      "score": 32.0,
+      "score": 30.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
@@ -140,15 +140,15 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 956.38,
-      "reason": "Underweight by 15.0%; critic score 95",
+      "allocation_aud": 932.01,
+      "reason": "Underweight by 15.0%; critic score 92",
       "risk_class": "core",
-      "agent_score": 95.0
+      "agent_score": 92.0
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 535.57,
+      "allocation_aud": 549.4,
       "reason": "Underweight by 8.0%; critic score 98",
       "risk_class": "aggressive",
       "agent_score": 98.0
@@ -156,7 +156,7 @@
     {
       "ticker": "AVGO",
       "name": "Broadcom",
-      "allocation_aud": 408.05,
+      "allocation_aud": 418.59,
       "reason": "Underweight by 6.0%; critic score 99",
       "risk_class": "aggressive",
       "agent_score": 99.0
@@ -175,7 +175,7 @@
       "ticker": "QQQM",
       "action": "HOLD",
       "sell_reason": "Core index sleeve: hold through drawdowns",
-      "critic_score": 95.0,
+      "critic_score": 92.0,
       "current_weight": 0.0,
       "max_weight": 0.2
     },
@@ -199,7 +199,7 @@
       "ticker": "ORCL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 64.0,
+      "critic_score": 66.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -207,7 +207,7 @@
       "ticker": "AMZN",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 79.0,
+      "critic_score": 77.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -263,7 +263,7 @@
       "ticker": "MELI",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 54.0,
+      "critic_score": 56.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -279,7 +279,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 32.0,
+      "critic_score": 30.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
