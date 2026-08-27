@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T21:54:38.160241+00:00",
+  "generated_at": "2026-08-27T00:58:50.235223+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7164350152015686,
-  "fx_status": "AUD/USD 0.7164 live",
+  "audusd": 0.7182875871658325,
+  "fx_status": "AUD/USD 0.7183 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -36,7 +36,7 @@
     },
     {
       "ticker": "ORCL",
-      "score": 64.0,
+      "score": 66.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Free cash flow is negative",
@@ -131,7 +131,7 @@
     },
     {
       "ticker": "VRTX",
-      "score": 75.0,
+      "score": 77.0,
       "action": "Add",
       "warnings": []
     }
@@ -199,7 +199,7 @@
       "ticker": "ORCL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 64.0,
+      "critic_score": 66.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -295,7 +295,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 75.0,
+      "critic_score": 77.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
