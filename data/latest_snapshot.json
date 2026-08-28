@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T00:58:50.235223+00:00",
+  "generated_at": "2026-08-28T05:32:55.493696+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7182875871658325,
-  "fx_status": "AUD/USD 0.7183 live",
+  "audusd": 0.7199423909187317,
+  "fx_status": "AUD/USD 0.7199 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -28,7 +28,7 @@
     },
     {
       "ticker": "NVDA",
-      "score": 98.0,
+      "score": 99.0,
       "action": "Add",
       "warnings": [
         "Very high beta"
@@ -45,7 +45,7 @@
     },
     {
       "ticker": "AMZN",
-      "score": 76.0,
+      "score": 78.0,
       "action": "Add",
       "warnings": []
     },
@@ -63,7 +63,7 @@
     },
     {
       "ticker": "AVGO",
-      "score": 99.0,
+      "score": 100.0,
       "action": "Add",
       "warnings": []
     },
@@ -140,7 +140,7 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 932.01,
+      "allocation_aud": 924.59,
       "reason": "Underweight by 15.0%; critic score 92",
       "risk_class": "core",
       "agent_score": 92.0
@@ -148,18 +148,18 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 549.4,
-      "reason": "Underweight by 8.0%; critic score 98",
+      "allocation_aud": 553.67,
+      "reason": "Underweight by 8.0%; critic score 99",
       "risk_class": "aggressive",
-      "agent_score": 98.0
+      "agent_score": 99.0
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom",
-      "allocation_aud": 418.59,
-      "reason": "Underweight by 6.0%; critic score 99",
+      "allocation_aud": 421.74,
+      "reason": "Underweight by 6.0%; critic score 100",
       "risk_class": "aggressive",
-      "agent_score": 99.0
+      "agent_score": 100.0
     },
     {
       "ticker": "CASH",
@@ -191,7 +191,7 @@
       "ticker": "NVDA",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 98.0,
+      "critic_score": 99.0,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -207,7 +207,7 @@
       "ticker": "AMZN",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 76.0,
+      "critic_score": 78.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -231,7 +231,7 @@
       "ticker": "AVGO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 99.0,
+      "critic_score": 100.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
