@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T00:45:12.150503+00:00",
+  "generated_at": "2026-09-01T23:29:06.603965+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7176690101623535,
-  "fx_status": "AUD/USD 0.7177 live",
+  "audusd": 0.714796245098114,
+  "fx_status": "AUD/USD 0.7148 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -36,7 +36,7 @@
     },
     {
       "ticker": "ORCL",
-      "score": 66.0,
+      "score": 64.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Free cash flow is negative",
@@ -45,7 +45,7 @@
     },
     {
       "ticker": "AMZN",
-      "score": 76.0,
+      "score": 78.0,
       "action": "Add",
       "warnings": []
     },
@@ -84,7 +84,7 @@
     },
     {
       "ticker": "DDOG",
-      "score": 87.0,
+      "score": 77.0,
       "action": "Add",
       "warnings": [
         "Forward P/E embeds high expectations"
@@ -106,7 +106,7 @@
     },
     {
       "ticker": "RKLB",
-      "score": 30.0,
+      "score": 29.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
@@ -131,7 +131,7 @@
     },
     {
       "ticker": "VRTX",
-      "score": 77.0,
+      "score": 76.0,
       "action": "Add",
       "warnings": []
     }
@@ -199,7 +199,7 @@
       "ticker": "ORCL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 66.0,
+      "critic_score": 64.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -207,7 +207,7 @@
       "ticker": "AMZN",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 76.0,
+      "critic_score": 78.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -255,7 +255,7 @@
       "ticker": "DDOG",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 87.0,
+      "critic_score": 77.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
@@ -279,7 +279,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 30.0,
+      "critic_score": 29.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
@@ -295,7 +295,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 77.0,
+      "critic_score": 76.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
