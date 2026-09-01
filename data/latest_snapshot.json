@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T03:16:30.742984+00:00",
+  "generated_at": "2026-09-01T00:45:12.150503+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7164350152015686,
-  "fx_status": "AUD/USD 0.7164 live",
+  "audusd": 0.7176690101623535,
+  "fx_status": "AUD/USD 0.7177 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -45,7 +45,7 @@
     },
     {
       "ticker": "AMZN",
-      "score": 77.0,
+      "score": 76.0,
       "action": "Add",
       "warnings": []
     },
@@ -92,7 +92,7 @@
     },
     {
       "ticker": "MELI",
-      "score": 56.0,
+      "score": 55.0,
       "action": "Hold / monitor",
       "warnings": []
     },
@@ -207,7 +207,7 @@
       "ticker": "AMZN",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 77.0,
+      "critic_score": 76.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -263,7 +263,7 @@
       "ticker": "MELI",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 56.0,
+      "critic_score": 55.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
