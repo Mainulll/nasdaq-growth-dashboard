@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T23:29:06.603965+00:00",
+  "generated_at": "2026-09-01T23:49:10.646563+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,7 +9,7 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.714796245098114,
+  "audusd": 0.7148473858833313,
   "fx_status": "AUD/USD 0.7148 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
@@ -84,7 +84,7 @@
     },
     {
       "ticker": "DDOG",
-      "score": 77.0,
+      "score": 87.0,
       "action": "Add",
       "warnings": [
         "Forward P/E embeds high expectations"
@@ -255,7 +255,7 @@
       "ticker": "DDOG",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 77.0,
+      "critic_score": 87.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
