@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T23:49:10.646563+00:00",
+  "generated_at": "2026-09-02T23:30:39.872011+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7148473858833313,
-  "fx_status": "AUD/USD 0.7148 live",
+  "audusd": 0.7168458700180054,
+  "fx_status": "AUD/USD 0.7168 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -22,13 +22,13 @@
     },
     {
       "ticker": "IWO",
-      "score": 83.0,
+      "score": 79.25,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "NVDA",
-      "score": 97.0,
+      "score": 98.0,
       "action": "Add",
       "warnings": [
         "Very high beta"
@@ -57,7 +57,7 @@
     },
     {
       "ticker": "META",
-      "score": 71.0,
+      "score": 72.0,
       "action": "Hold / add selectively",
       "warnings": []
     },
@@ -92,13 +92,13 @@
     },
     {
       "ticker": "MELI",
-      "score": 55.0,
+      "score": 56.0,
       "action": "Hold / monitor",
       "warnings": []
     },
     {
       "ticker": "NU",
-      "score": 60.0,
+      "score": 64.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Speculative sleeve: execution and financing risk dominate"
@@ -140,7 +140,7 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 933.08,
+      "allocation_aud": 928.82,
       "reason": "Underweight by 15.0%; critic score 92",
       "risk_class": "core",
       "agent_score": 92.0
@@ -148,15 +148,15 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 541.3,
-      "reason": "Underweight by 8.0%; critic score 97",
+      "allocation_aud": 547.51,
+      "reason": "Underweight by 8.0%; critic score 98",
       "risk_class": "aggressive",
-      "agent_score": 97.0
+      "agent_score": 98.0
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom",
-      "allocation_aud": 425.62,
+      "allocation_aud": 423.67,
       "reason": "Underweight by 6.0%; critic score 100",
       "risk_class": "aggressive",
       "agent_score": 100.0
@@ -183,7 +183,7 @@
       "ticker": "IWO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 83.0,
+      "critic_score": 79.25,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -191,7 +191,7 @@
       "ticker": "NVDA",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 97.0,
+      "critic_score": 98.0,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -223,7 +223,7 @@
       "ticker": "META",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 71.0,
+      "critic_score": 72.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -263,7 +263,7 @@
       "ticker": "MELI",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 55.0,
+      "critic_score": 56.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -271,7 +271,7 @@
       "ticker": "NU",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 60.0,
+      "critic_score": 64.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
