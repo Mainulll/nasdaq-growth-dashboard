@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T23:11:49.155032+00:00",
+  "generated_at": "2026-09-07T23:40:23.313462+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7205129861831665,
-  "fx_status": "AUD/USD 0.7205 live",
+  "audusd": 0.7224911451339722,
+  "fx_status": "AUD/USD 0.7225 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
