@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T23:33:50.018523+00:00",
+  "generated_at": "2026-09-09T23:27:37.660759+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7223867774009705,
-  "fx_status": "AUD/USD 0.7224 live",
+  "audusd": 0.7222824096679688,
+  "fx_status": "AUD/USD 0.7223 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -22,7 +22,7 @@
     },
     {
       "ticker": "IWO",
-      "score": 80.25,
+      "score": 79.25,
       "action": "Add",
       "warnings": []
     },
@@ -57,7 +57,7 @@
     },
     {
       "ticker": "META",
-      "score": 72.0,
+      "score": 74.0,
       "action": "Hold / add selectively",
       "warnings": []
     },
@@ -98,7 +98,7 @@
     },
     {
       "ticker": "NU",
-      "score": 64.0,
+      "score": 62.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Speculative sleeve: execution and financing risk dominate"
@@ -183,7 +183,7 @@
       "ticker": "IWO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 80.25,
+      "critic_score": 79.25,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -223,7 +223,7 @@
       "ticker": "META",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 72.0,
+      "critic_score": 74.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -271,7 +271,7 @@
       "ticker": "NU",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 64.0,
+      "critic_score": 62.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
