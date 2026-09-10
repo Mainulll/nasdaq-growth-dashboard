@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T23:27:37.660759+00:00",
+  "generated_at": "2026-09-10T23:21:06.188712+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7222824096679688,
-  "fx_status": "AUD/USD 0.7223 live",
+  "audusd": 0.716383695602417,
+  "fx_status": "AUD/USD 0.7164 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -28,7 +28,7 @@
     },
     {
       "ticker": "NVDA",
-      "score": 98.0,
+      "score": 97.0,
       "action": "Add",
       "warnings": [
         "Very high beta"
@@ -36,7 +36,7 @@
     },
     {
       "ticker": "ORCL",
-      "score": 66.0,
+      "score": 64.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Free cash flow is negative",
@@ -57,7 +57,7 @@
     },
     {
       "ticker": "META",
-      "score": 74.0,
+      "score": 72.0,
       "action": "Hold / add selectively",
       "warnings": []
     },
@@ -92,7 +92,7 @@
     },
     {
       "ticker": "MELI",
-      "score": 55.0,
+      "score": 56.0,
       "action": "Hold / monitor",
       "warnings": []
     },
@@ -131,8 +131,8 @@
     },
     {
       "ticker": "VRTX",
-      "score": 75.0,
-      "action": "Add",
+      "score": 74.0,
+      "action": "Hold / add selectively",
       "warnings": []
     }
   ],
@@ -140,7 +140,7 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 935.23,
+      "allocation_aud": 939.56,
       "reason": "Underweight by 15.0%; critic score 92",
       "risk_class": "core",
       "agent_score": 92.0
@@ -148,15 +148,15 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 551.3,
-      "reason": "Underweight by 8.0%; critic score 98",
+      "allocation_aud": 545.05,
+      "reason": "Underweight by 8.0%; critic score 97",
       "risk_class": "aggressive",
-      "agent_score": 98.0
+      "agent_score": 97.0
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom",
-      "allocation_aud": 413.47,
+      "allocation_aud": 415.38,
       "reason": "Underweight by 6.0%; critic score 98",
       "risk_class": "aggressive",
       "agent_score": 98.0
@@ -191,7 +191,7 @@
       "ticker": "NVDA",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 98.0,
+      "critic_score": 97.0,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -199,7 +199,7 @@
       "ticker": "ORCL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 66.0,
+      "critic_score": 64.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -223,7 +223,7 @@
       "ticker": "META",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 74.0,
+      "critic_score": 72.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -263,7 +263,7 @@
       "ticker": "MELI",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 55.0,
+      "critic_score": 56.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -295,7 +295,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 75.0,
+      "critic_score": 74.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
