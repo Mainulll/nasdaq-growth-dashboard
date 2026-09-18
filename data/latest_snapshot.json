@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T23:37:28.422465+00:00",
+  "generated_at": "2026-09-18T23:30:24.093352+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7111363410949707,
-  "fx_status": "AUD/USD 0.7111 live",
+  "audusd": 0.7121492624282837,
+  "fx_status": "AUD/USD 0.7121 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -22,13 +22,13 @@
     },
     {
       "ticker": "IWO",
-      "score": 80.25,
+      "score": 79.25,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "NVDA",
-      "score": 97.0,
+      "score": 98.0,
       "action": "Add",
       "warnings": [
         "Very high beta"
@@ -63,7 +63,7 @@
     },
     {
       "ticker": "AVGO",
-      "score": 96.0,
+      "score": 98.0,
       "action": "Add",
       "warnings": []
     },
@@ -140,7 +140,7 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 943.38,
+      "allocation_aud": 935.23,
       "reason": "Underweight by 15.0%; critic score 92",
       "risk_class": "core",
       "agent_score": 92.0
@@ -148,18 +148,18 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 547.27,
-      "reason": "Underweight by 8.0%; critic score 97",
+      "allocation_aud": 551.3,
+      "reason": "Underweight by 8.0%; critic score 98",
       "risk_class": "aggressive",
-      "agent_score": 97.0
+      "agent_score": 98.0
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "allocation_aud": 409.35,
-      "reason": "Underweight by 7.0%; critic score 88",
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "allocation_aud": 413.47,
+      "reason": "Underweight by 6.0%; critic score 98",
       "risk_class": "aggressive",
-      "agent_score": 88.0
+      "agent_score": 98.0
     },
     {
       "ticker": "CASH",
@@ -183,7 +183,7 @@
       "ticker": "IWO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 80.25,
+      "critic_score": 79.25,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -191,7 +191,7 @@
       "ticker": "NVDA",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 97.0,
+      "critic_score": 98.0,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -231,7 +231,7 @@
       "ticker": "AVGO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 96.0,
+      "critic_score": 98.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
