@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T00:14:16.479456+00:00",
+  "generated_at": "2026-09-22T23:43:54.077053+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,14 +9,14 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7124029397964478,
-  "fx_status": "AUD/USD 0.7124 live",
+  "audusd": 0.7114905714988708,
+  "fx_status": "AUD/USD 0.7115 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
     {
       "ticker": "QQQM",
-      "score": 92.0,
+      "score": 95.0,
       "action": "Add",
       "warnings": []
     },
@@ -51,14 +51,14 @@
     },
     {
       "ticker": "GOOGL",
-      "score": 88.0,
+      "score": 89.0,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "META",
-      "score": 74.0,
-      "action": "Hold / add selectively",
+      "score": 75.0,
+      "action": "Add",
       "warnings": []
     },
     {
@@ -106,7 +106,7 @@
     },
     {
       "ticker": "RKLB",
-      "score": 30.0,
+      "score": 32.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
@@ -140,26 +140,26 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 935.23,
-      "reason": "Underweight by 15.0%; critic score 92",
+      "allocation_aud": 959.6,
+      "reason": "Underweight by 15.0%; critic score 95",
       "risk_class": "core",
-      "agent_score": 92.0
+      "agent_score": 95.0
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 551.3,
+      "allocation_aud": 537.37,
       "reason": "Underweight by 8.0%; critic score 98",
       "risk_class": "aggressive",
       "agent_score": 98.0
     },
     {
-      "ticker": "AVGO",
-      "name": "Broadcom",
-      "allocation_aud": 413.47,
-      "reason": "Underweight by 6.0%; critic score 98",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "allocation_aud": 403.03,
+      "reason": "Underweight by 7.0%; critic score 89",
       "risk_class": "aggressive",
-      "agent_score": 98.0
+      "agent_score": 89.0
     },
     {
       "ticker": "CASH",
@@ -175,7 +175,7 @@
       "ticker": "QQQM",
       "action": "HOLD",
       "sell_reason": "Core index sleeve: hold through drawdowns",
-      "critic_score": 92.0,
+      "critic_score": 95.0,
       "current_weight": 0.0,
       "max_weight": 0.2
     },
@@ -215,7 +215,7 @@
       "ticker": "GOOGL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 88.0,
+      "critic_score": 89.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -223,7 +223,7 @@
       "ticker": "META",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 74.0,
+      "critic_score": 75.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -279,7 +279,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 30.0,
+      "critic_score": 32.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
