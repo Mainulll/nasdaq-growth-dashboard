@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T23:43:54.077053+00:00",
+  "generated_at": "2026-09-23T23:53:46.730726+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7114905714988708,
-  "fx_status": "AUD/USD 0.7115 live",
+  "audusd": 0.7038288712501526,
+  "fx_status": "AUD/USD 0.7038 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -22,13 +22,13 @@
     },
     {
       "ticker": "IWO",
-      "score": 79.25,
+      "score": 78.25,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "NVDA",
-      "score": 98.0,
+      "score": 97.0,
       "action": "Add",
       "warnings": [
         "Very high beta"
@@ -131,7 +131,7 @@
     },
     {
       "ticker": "VRTX",
-      "score": 75.0,
+      "score": 76.0,
       "action": "Add",
       "warnings": []
     }
@@ -140,7 +140,7 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 959.6,
+      "allocation_aud": 963.92,
       "reason": "Underweight by 15.0%; critic score 95",
       "risk_class": "core",
       "agent_score": 95.0
@@ -148,15 +148,15 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 537.37,
-      "reason": "Underweight by 8.0%; critic score 98",
+      "allocation_aud": 531.23,
+      "reason": "Underweight by 8.0%; critic score 97",
       "risk_class": "aggressive",
-      "agent_score": 98.0
+      "agent_score": 97.0
     },
     {
       "ticker": "GOOGL",
       "name": "Alphabet",
-      "allocation_aud": 403.03,
+      "allocation_aud": 404.85,
       "reason": "Underweight by 7.0%; critic score 89",
       "risk_class": "aggressive",
       "agent_score": 89.0
@@ -183,7 +183,7 @@
       "ticker": "IWO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 79.25,
+      "critic_score": 78.25,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -191,7 +191,7 @@
       "ticker": "NVDA",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 98.0,
+      "critic_score": 97.0,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -295,7 +295,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 75.0,
+      "critic_score": 76.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
