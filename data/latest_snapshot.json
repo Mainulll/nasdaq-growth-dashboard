@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T01:11:05.925025+00:00",
+  "generated_at": "2026-09-30T00:41:52.696574+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7013606429100037,
-  "fx_status": "AUD/USD 0.7014 live",
+  "audusd": 0.6988608837127686,
+  "fx_status": "AUD/USD 0.6989 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -63,7 +63,7 @@
     },
     {
       "ticker": "AVGO",
-      "score": 98.0,
+      "score": 99.0,
       "action": "Add",
       "warnings": []
     },
@@ -98,15 +98,15 @@
     },
     {
       "ticker": "NU",
-      "score": 60.0,
-      "action": "Hold / add selectively",
+      "score": 59.0,
+      "action": "Hold / monitor",
       "warnings": [
         "Speculative sleeve: execution and financing risk dominate"
       ]
     },
     {
       "ticker": "RKLB",
-      "score": 32.0,
+      "score": 33.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
@@ -140,7 +140,7 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 959.6,
+      "allocation_aud": 956.38,
       "reason": "Underweight by 15.0%; critic score 95",
       "risk_class": "core",
       "agent_score": 95.0
@@ -148,18 +148,18 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 537.37,
+      "allocation_aud": 535.57,
       "reason": "Underweight by 8.0%; critic score 98",
       "risk_class": "aggressive",
       "agent_score": 98.0
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "allocation_aud": 403.03,
-      "reason": "Underweight by 7.0%; critic score 89",
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "allocation_aud": 408.05,
+      "reason": "Underweight by 6.0%; critic score 99",
       "risk_class": "aggressive",
-      "agent_score": 89.0
+      "agent_score": 99.0
     },
     {
       "ticker": "CASH",
@@ -231,7 +231,7 @@
       "ticker": "AVGO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 98.0,
+      "critic_score": 99.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -271,7 +271,7 @@
       "ticker": "NU",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 60.0,
+      "critic_score": 59.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
@@ -279,7 +279,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 32.0,
+      "critic_score": 33.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
