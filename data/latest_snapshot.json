@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T00:43:50.876059+00:00",
+  "generated_at": "2026-10-02T01:02:08.067679+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.6947339177131653,
-  "fx_status": "AUD/USD 0.6947 live",
+  "audusd": 0.6919457912445068,
+  "fx_status": "AUD/USD 0.6919 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -22,7 +22,7 @@
     },
     {
       "ticker": "IWO",
-      "score": 79.25,
+      "score": 78.25,
       "action": "Add",
       "warnings": []
     },
@@ -51,19 +51,19 @@
     },
     {
       "ticker": "GOOGL",
-      "score": 80.0,
+      "score": 89.0,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "META",
-      "score": 76.0,
+      "score": 75.0,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "AVGO",
-      "score": 99.0,
+      "score": 98.0,
       "action": "Add",
       "warnings": []
     },
@@ -92,7 +92,7 @@
     },
     {
       "ticker": "MELI",
-      "score": 55.0,
+      "score": 53.0,
       "action": "Hold / monitor",
       "warnings": []
     },
@@ -106,7 +106,7 @@
     },
     {
       "ticker": "RKLB",
-      "score": 33.0,
+      "score": 32.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
@@ -119,7 +119,7 @@
     },
     {
       "ticker": "OKLO",
-      "score": 9.0,
+      "score": 8.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
@@ -140,7 +140,7 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 956.38,
+      "allocation_aud": 959.6,
       "reason": "Underweight by 15.0%; critic score 95",
       "risk_class": "core",
       "agent_score": 95.0
@@ -148,18 +148,18 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 535.57,
+      "allocation_aud": 537.37,
       "reason": "Underweight by 8.0%; critic score 98",
       "risk_class": "aggressive",
       "agent_score": 98.0
     },
     {
-      "ticker": "AVGO",
-      "name": "Broadcom",
-      "allocation_aud": 408.05,
-      "reason": "Underweight by 6.0%; critic score 99",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "allocation_aud": 403.03,
+      "reason": "Underweight by 7.0%; critic score 89",
       "risk_class": "aggressive",
-      "agent_score": 99.0
+      "agent_score": 89.0
     },
     {
       "ticker": "CASH",
@@ -183,7 +183,7 @@
       "ticker": "IWO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 79.25,
+      "critic_score": 78.25,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -215,7 +215,7 @@
       "ticker": "GOOGL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 80.0,
+      "critic_score": 89.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -223,7 +223,7 @@
       "ticker": "META",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 76.0,
+      "critic_score": 75.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -231,7 +231,7 @@
       "ticker": "AVGO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 99.0,
+      "critic_score": 98.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -263,7 +263,7 @@
       "ticker": "MELI",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 55.0,
+      "critic_score": 53.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -279,7 +279,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 33.0,
+      "critic_score": 32.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
@@ -287,7 +287,7 @@
       "ticker": "OKLO",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 9.0,
+      "critic_score": 8.0,
       "current_weight": 0.0,
       "max_weight": 0.04
     },
