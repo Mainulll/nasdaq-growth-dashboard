@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T01:18:19.727163+00:00",
+  "generated_at": "2026-10-03T00:39:31.420963+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.6920893788337708,
-  "fx_status": "AUD/USD 0.6921 live",
+  "audusd": 0.6957489848136902,
+  "fx_status": "AUD/USD 0.6957 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -51,7 +51,7 @@
     },
     {
       "ticker": "GOOGL",
-      "score": 89.0,
+      "score": 88.0,
       "action": "Add",
       "warnings": []
     },
@@ -98,8 +98,8 @@
     },
     {
       "ticker": "NU",
-      "score": 59.0,
-      "action": "Hold / monitor",
+      "score": 60.0,
+      "action": "Hold / add selectively",
       "warnings": [
         "Speculative sleeve: execution and financing risk dominate"
       ]
@@ -131,8 +131,8 @@
     },
     {
       "ticker": "VRTX",
-      "score": 76.0,
-      "action": "Add",
+      "score": 74.0,
+      "action": "Hold / add selectively",
       "warnings": []
     }
   ],
@@ -154,12 +154,12 @@
       "agent_score": 98.0
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
+      "ticker": "AVGO",
+      "name": "Broadcom",
       "allocation_aud": 403.03,
-      "reason": "Underweight by 7.0%; critic score 89",
+      "reason": "Underweight by 6.0%; critic score 98",
       "risk_class": "aggressive",
-      "agent_score": 89.0
+      "agent_score": 98.0
     },
     {
       "ticker": "CASH",
@@ -215,7 +215,7 @@
       "ticker": "GOOGL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 89.0,
+      "critic_score": 88.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -271,7 +271,7 @@
       "ticker": "NU",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 59.0,
+      "critic_score": 60.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
@@ -295,7 +295,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 76.0,
+      "critic_score": 74.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
