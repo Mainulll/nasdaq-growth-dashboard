@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T00:56:41.880454+00:00",
+  "generated_at": "2026-10-08T01:12:46.245495+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,20 +9,20 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.69808030128479,
-  "fx_status": "AUD/USD 0.6981 live",
+  "audusd": 0.6957973837852478,
+  "fx_status": "AUD/USD 0.6958 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
     {
       "ticker": "QQQM",
-      "score": 85.0,
+      "score": 95.0,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "IWO",
-      "score": 78.25,
+      "score": 82.0,
       "action": "Add",
       "warnings": []
     },
@@ -57,8 +57,8 @@
     },
     {
       "ticker": "META",
-      "score": 70.0,
-      "action": "Hold / add selectively",
+      "score": 77.0,
+      "action": "Add",
       "warnings": []
     },
     {
@@ -69,14 +69,14 @@
     },
     {
       "ticker": "ANET",
-      "score": 76.0,
+      "score": 86.0,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "CRWD",
-      "score": 57.0,
-      "action": "Hold / monitor",
+      "score": 67.0,
+      "action": "Hold / add selectively",
       "warnings": [
         "Operating margin is negative",
         "Forward P/E embeds high expectations"
@@ -84,7 +84,7 @@
     },
     {
       "ticker": "DDOG",
-      "score": 77.0,
+      "score": 87.0,
       "action": "Add",
       "warnings": [
         "Forward P/E embeds high expectations"
@@ -98,15 +98,15 @@
     },
     {
       "ticker": "NU",
-      "score": 58.0,
-      "action": "Hold / monitor",
+      "score": 64.0,
+      "action": "Hold / add selectively",
       "warnings": [
         "Speculative sleeve: execution and financing risk dominate"
       ]
     },
     {
       "ticker": "RKLB",
-      "score": 24.0,
+      "score": 32.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
@@ -119,7 +119,7 @@
     },
     {
       "ticker": "OKLO",
-      "score": 8.0,
+      "score": 9.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
@@ -131,7 +131,7 @@
     },
     {
       "ticker": "VRTX",
-      "score": 77.0,
+      "score": 75.0,
       "action": "Add",
       "warnings": []
     }
@@ -140,15 +140,15 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 873.16,
-      "reason": "Underweight by 15.0%; critic score 85",
+      "allocation_aud": 959.6,
+      "reason": "Underweight by 15.0%; critic score 95",
       "risk_class": "core",
-      "agent_score": 85.0
+      "agent_score": 95.0
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 586.76,
+      "allocation_aud": 537.37,
       "reason": "Underweight by 8.0%; critic score 98",
       "risk_class": "aggressive",
       "agent_score": 98.0
@@ -156,7 +156,7 @@
     {
       "ticker": "AVGO",
       "name": "Broadcom",
-      "allocation_aud": 440.07,
+      "allocation_aud": 403.03,
       "reason": "Underweight by 6.0%; critic score 98",
       "risk_class": "aggressive",
       "agent_score": 98.0
@@ -175,7 +175,7 @@
       "ticker": "QQQM",
       "action": "HOLD",
       "sell_reason": "Core index sleeve: hold through drawdowns",
-      "critic_score": 85.0,
+      "critic_score": 95.0,
       "current_weight": 0.0,
       "max_weight": 0.2
     },
@@ -183,7 +183,7 @@
       "ticker": "IWO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 78.25,
+      "critic_score": 82.0,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -223,7 +223,7 @@
       "ticker": "META",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 70.0,
+      "critic_score": 77.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -239,7 +239,7 @@
       "ticker": "ANET",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 76.0,
+      "critic_score": 86.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -247,7 +247,7 @@
       "ticker": "CRWD",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 57.0,
+      "critic_score": 67.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -255,7 +255,7 @@
       "ticker": "DDOG",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 77.0,
+      "critic_score": 87.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
@@ -271,7 +271,7 @@
       "ticker": "NU",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 58.0,
+      "critic_score": 64.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
@@ -279,7 +279,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 24.0,
+      "critic_score": 32.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
@@ -287,7 +287,7 @@
       "ticker": "OKLO",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 8.0,
+      "critic_score": 9.0,
       "current_weight": 0.0,
       "max_weight": 0.04
     },
@@ -295,7 +295,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 77.0,
+      "critic_score": 75.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
