@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T01:08:16.192974+00:00",
+  "generated_at": "2026-10-13T02:41:11.688388+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.6987631916999817,
-  "fx_status": "AUD/USD 0.6988 live",
+  "audusd": 0.696233332157135,
+  "fx_status": "AUD/USD 0.6962 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -45,7 +45,7 @@
     },
     {
       "ticker": "AMZN",
-      "score": 75.0,
+      "score": 77.0,
       "action": "Add",
       "warnings": []
     },
@@ -57,13 +57,13 @@
     },
     {
       "ticker": "META",
-      "score": 76.0,
+      "score": 77.0,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "AVGO",
-      "score": 98.0,
+      "score": 96.0,
       "action": "Add",
       "warnings": []
     },
@@ -106,7 +106,7 @@
     },
     {
       "ticker": "RKLB",
-      "score": 30.0,
+      "score": 26.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
@@ -131,8 +131,8 @@
     },
     {
       "ticker": "VRTX",
-      "score": 74.0,
-      "action": "Hold / add selectively",
+      "score": 75.0,
+      "action": "Add",
       "warnings": []
     }
   ],
@@ -140,7 +140,7 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 963.92,
+      "allocation_aud": 967.74,
       "reason": "Underweight by 15.0%; critic score 95",
       "risk_class": "core",
       "agent_score": 95.0
@@ -148,18 +148,18 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 531.23,
+      "allocation_aud": 533.33,
       "reason": "Underweight by 8.0%; critic score 97",
       "risk_class": "aggressive",
       "agent_score": 97.0
     },
     {
-      "ticker": "AVGO",
-      "name": "Broadcom",
-      "allocation_aud": 404.85,
-      "reason": "Underweight by 6.0%; critic score 98",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "allocation_aud": 398.92,
+      "reason": "Underweight by 7.0%; critic score 88",
       "risk_class": "aggressive",
-      "agent_score": 98.0
+      "agent_score": 88.0
     },
     {
       "ticker": "CASH",
@@ -207,7 +207,7 @@
       "ticker": "AMZN",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 75.0,
+      "critic_score": 77.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -223,7 +223,7 @@
       "ticker": "META",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 76.0,
+      "critic_score": 77.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -231,7 +231,7 @@
       "ticker": "AVGO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 98.0,
+      "critic_score": 96.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -279,7 +279,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 30.0,
+      "critic_score": 26.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
@@ -295,7 +295,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 74.0,
+      "critic_score": 75.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
