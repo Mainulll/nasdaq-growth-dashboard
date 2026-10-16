@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T23:46:15.941007+00:00",
+  "generated_at": "2026-10-16T23:46:39.666452+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.6920893788337708,
-  "fx_status": "AUD/USD 0.6921 live",
+  "audusd": 0.6949270367622375,
+  "fx_status": "AUD/USD 0.6949 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -45,31 +45,31 @@
     },
     {
       "ticker": "AMZN",
-      "score": 78.0,
-      "action": "Add",
-      "warnings": []
-    },
-    {
-      "ticker": "GOOGL",
-      "score": 88.0,
-      "action": "Add",
-      "warnings": []
-    },
-    {
-      "ticker": "META",
       "score": 76.0,
       "action": "Add",
       "warnings": []
     },
     {
+      "ticker": "GOOGL",
+      "score": 86.0,
+      "action": "Add",
+      "warnings": []
+    },
+    {
+      "ticker": "META",
+      "score": 74.0,
+      "action": "Hold / add selectively",
+      "warnings": []
+    },
+    {
       "ticker": "AVGO",
-      "score": 96.0,
+      "score": 94.0,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "ANET",
-      "score": 88.0,
+      "score": 86.0,
       "action": "Add",
       "warnings": []
     },
@@ -92,7 +92,7 @@
     },
     {
       "ticker": "MELI",
-      "score": 56.0,
+      "score": 54.0,
       "action": "Hold / monitor",
       "warnings": []
     },
@@ -106,7 +106,7 @@
     },
     {
       "ticker": "RKLB",
-      "score": 25.0,
+      "score": 24.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
@@ -131,7 +131,7 @@
     },
     {
       "ticker": "VRTX",
-      "score": 75.0,
+      "score": 76.0,
       "action": "Add",
       "warnings": []
     }
@@ -140,7 +140,7 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 964.16,
+      "allocation_aud": 971.97,
       "reason": "Underweight by 15.0%; critic score 94",
       "risk_class": "core",
       "agent_score": 94.0
@@ -148,7 +148,7 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 531.65,
+      "allocation_aud": 535.95,
       "reason": "Underweight by 8.0%; critic score 96",
       "risk_class": "aggressive",
       "agent_score": 96.0
@@ -156,10 +156,10 @@
     {
       "ticker": "GOOGL",
       "name": "Alphabet",
-      "allocation_aud": 404.19,
-      "reason": "Underweight by 7.0%; critic score 88",
+      "allocation_aud": 392.08,
+      "reason": "Underweight by 7.0%; critic score 86",
       "risk_class": "aggressive",
-      "agent_score": 88.0
+      "agent_score": 86.0
     },
     {
       "ticker": "CASH",
@@ -207,7 +207,7 @@
       "ticker": "AMZN",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 78.0,
+      "critic_score": 76.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -215,7 +215,7 @@
       "ticker": "GOOGL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 88.0,
+      "critic_score": 86.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -223,7 +223,7 @@
       "ticker": "META",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 76.0,
+      "critic_score": 74.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -231,7 +231,7 @@
       "ticker": "AVGO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 96.0,
+      "critic_score": 94.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -239,7 +239,7 @@
       "ticker": "ANET",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 88.0,
+      "critic_score": 86.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -263,7 +263,7 @@
       "ticker": "MELI",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 56.0,
+      "critic_score": 54.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -279,7 +279,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 25.0,
+      "critic_score": 24.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
@@ -295,7 +295,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 75.0,
+      "critic_score": 76.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
