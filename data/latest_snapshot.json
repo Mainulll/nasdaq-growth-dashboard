@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T00:32:50.282645+00:00",
+  "generated_at": "2026-10-21T00:03:05.119210+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.6981289982795715,
-  "fx_status": "AUD/USD 0.6981 live",
+  "audusd": 0.7009673714637756,
+  "fx_status": "AUD/USD 0.7010 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -45,13 +45,13 @@
     },
     {
       "ticker": "AMZN",
-      "score": 74.0,
-      "action": "Hold / add selectively",
+      "score": 76.0,
+      "action": "Add",
       "warnings": []
     },
     {
       "ticker": "GOOGL",
-      "score": 86.0,
+      "score": 88.0,
       "action": "Add",
       "warnings": []
     },
@@ -131,8 +131,8 @@
     },
     {
       "ticker": "VRTX",
-      "score": 76.0,
-      "action": "Add",
+      "score": 74.0,
+      "action": "Hold / add selectively",
       "warnings": []
     }
   ],
@@ -140,7 +140,7 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 947.18,
+      "allocation_aud": 939.38,
       "reason": "Underweight by 15.0%; critic score 91",
       "risk_class": "core",
       "agent_score": 91.0
@@ -148,7 +148,7 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 550.27,
+      "allocation_aud": 545.73,
       "reason": "Underweight by 8.0%; critic score 96",
       "risk_class": "aggressive",
       "agent_score": 96.0
@@ -156,10 +156,10 @@
     {
       "ticker": "GOOGL",
       "name": "Alphabet",
-      "allocation_aud": 402.55,
-      "reason": "Underweight by 7.0%; critic score 86",
+      "allocation_aud": 414.89,
+      "reason": "Underweight by 7.0%; critic score 88",
       "risk_class": "aggressive",
-      "agent_score": 86.0
+      "agent_score": 88.0
     },
     {
       "ticker": "CASH",
@@ -207,7 +207,7 @@
       "ticker": "AMZN",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 74.0,
+      "critic_score": 76.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -215,7 +215,7 @@
       "ticker": "GOOGL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 86.0,
+      "critic_score": 88.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -295,7 +295,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 76.0,
+      "critic_score": 74.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
