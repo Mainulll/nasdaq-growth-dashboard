@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T00:03:05.119210+00:00",
+  "generated_at": "2026-10-22T00:08:24.080235+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,130 +9,113 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7009673714637756,
-  "fx_status": "AUD/USD 0.7010 live",
+  "audusd": 0.7034822702407837,
+  "fx_status": "AUD/USD 0.7035 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
     {
       "ticker": "QQQM",
-      "score": 91.0,
-      "action": "Add",
-      "warnings": []
+      "score": 54.5,
+      "action": "Hold / monitor",
+      "warnings": [
+        "Expense ratio unavailable"
+      ]
     },
     {
       "ticker": "IWO",
-      "score": 76.25,
-      "action": "Add",
+      "score": 12.0,
+      "action": "Reduce / avoid",
       "warnings": []
     },
     {
       "ticker": "NVDA",
-      "score": 96.0,
-      "action": "Add",
-      "warnings": [
-        "Very high beta"
-      ]
+      "score": 15.0,
+      "action": "Reduce / avoid",
+      "warnings": []
     },
     {
       "ticker": "ORCL",
-      "score": 69.0,
-      "action": "Hold / add selectively",
-      "warnings": [
-        "Free cash flow is negative",
-        "High debt-to-equity"
-      ]
+      "score": 8.0,
+      "action": "Reduce / avoid",
+      "warnings": []
     },
     {
       "ticker": "AMZN",
-      "score": 76.0,
-      "action": "Add",
+      "score": 15.0,
+      "action": "Reduce / avoid",
       "warnings": []
     },
     {
       "ticker": "GOOGL",
-      "score": 88.0,
-      "action": "Add",
+      "score": 16.0,
+      "action": "Reduce / avoid",
       "warnings": []
     },
     {
       "ticker": "META",
-      "score": 74.0,
-      "action": "Hold / add selectively",
+      "score": 12.0,
+      "action": "Reduce / avoid",
       "warnings": []
     },
     {
       "ticker": "AVGO",
-      "score": 94.0,
-      "action": "Add",
+      "score": 10.0,
+      "action": "Reduce / avoid",
       "warnings": []
     },
     {
       "ticker": "ANET",
-      "score": 86.0,
-      "action": "Add",
+      "score": 15.0,
+      "action": "Reduce / avoid",
       "warnings": []
     },
     {
       "ticker": "CRWD",
-      "score": 67.0,
-      "action": "Hold / add selectively",
-      "warnings": [
-        "Operating margin is negative",
-        "Forward P/E embeds high expectations"
-      ]
+      "score": 18.0,
+      "action": "Reduce / avoid",
+      "warnings": []
     },
     {
       "ticker": "DDOG",
-      "score": 87.0,
-      "action": "Add",
-      "warnings": [
-        "Forward P/E embeds high expectations"
-      ]
+      "score": 18.0,
+      "action": "Reduce / avoid",
+      "warnings": []
     },
     {
       "ticker": "MELI",
-      "score": 54.0,
-      "action": "Hold / monitor",
+      "score": 12.0,
+      "action": "Reduce / avoid",
       "warnings": []
     },
     {
       "ticker": "NU",
-      "score": 60.0,
-      "action": "Hold / add selectively",
+      "score": 6.0,
+      "action": "Reduce / avoid",
       "warnings": [
         "Speculative sleeve: execution and financing risk dominate"
       ]
     },
     {
       "ticker": "RKLB",
-      "score": 24.0,
+      "score": 0.0,
       "action": "Reduce / avoid",
       "warnings": [
-        "Operating margin is negative",
-        "Free cash flow is negative",
-        "Forward P/E embeds high expectations",
-        "Very high beta",
-        "Speculative sleeve: execution and financing risk dominate",
-        "Negative operating margin and free cash flow"
+        "Speculative sleeve: execution and financing risk dominate"
       ]
     },
     {
       "ticker": "OKLO",
-      "score": 8.0,
+      "score": 0.0,
       "action": "Reduce / avoid",
       "warnings": [
-        "Operating margin is negative",
-        "Free cash flow is negative",
-        "Price-to-sales is elevated",
-        "Speculative sleeve: execution and financing risk dominate",
-        "Negative operating margin and free cash flow"
+        "Speculative sleeve: execution and financing risk dominate"
       ]
     },
     {
       "ticker": "VRTX",
-      "score": 74.0,
-      "action": "Hold / add selectively",
+      "score": 16.0,
+      "action": "Reduce / avoid",
       "warnings": []
     }
   ],
@@ -140,26 +123,10 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 939.38,
-      "reason": "Underweight by 15.0%; critic score 91",
+      "allocation_aud": 1900.0,
+      "reason": "Underweight by 15.0%; critic score 54",
       "risk_class": "core",
-      "agent_score": 91.0
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "allocation_aud": 545.73,
-      "reason": "Underweight by 8.0%; critic score 96",
-      "risk_class": "aggressive",
-      "agent_score": 96.0
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "allocation_aud": 414.89,
-      "reason": "Underweight by 7.0%; critic score 88",
-      "risk_class": "aggressive",
-      "agent_score": 88.0
+      "agent_score": 54.5
     },
     {
       "ticker": "CASH",
@@ -175,103 +142,103 @@
       "ticker": "QQQM",
       "action": "HOLD",
       "sell_reason": "Core index sleeve: hold through drawdowns",
-      "critic_score": 91.0,
+      "critic_score": 54.5,
       "current_weight": 0.0,
       "max_weight": 0.2
     },
     {
       "ticker": "IWO",
-      "action": "HOLD",
-      "sell_reason": "No thesis-break signal",
-      "critic_score": 76.25,
+      "action": "REVIEW / REDUCE",
+      "sell_reason": "Critic score below 35",
+      "critic_score": 12.0,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
     {
       "ticker": "NVDA",
-      "action": "HOLD",
-      "sell_reason": "No thesis-break signal",
-      "critic_score": 96.0,
+      "action": "REVIEW / REDUCE",
+      "sell_reason": "Critic score below 35",
+      "critic_score": 15.0,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
     {
       "ticker": "ORCL",
-      "action": "HOLD",
-      "sell_reason": "No thesis-break signal",
-      "critic_score": 69.0,
+      "action": "REVIEW / REDUCE",
+      "sell_reason": "Critic score below 35",
+      "critic_score": 8.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
     {
       "ticker": "AMZN",
-      "action": "HOLD",
-      "sell_reason": "No thesis-break signal",
-      "critic_score": 76.0,
+      "action": "REVIEW / REDUCE",
+      "sell_reason": "Critic score below 35",
+      "critic_score": 15.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
     {
       "ticker": "GOOGL",
-      "action": "HOLD",
-      "sell_reason": "No thesis-break signal",
-      "critic_score": 88.0,
+      "action": "REVIEW / REDUCE",
+      "sell_reason": "Critic score below 35",
+      "critic_score": 16.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
     {
       "ticker": "META",
-      "action": "HOLD",
-      "sell_reason": "No thesis-break signal",
-      "critic_score": 74.0,
+      "action": "REVIEW / REDUCE",
+      "sell_reason": "Critic score below 35",
+      "critic_score": 12.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
     {
       "ticker": "AVGO",
-      "action": "HOLD",
-      "sell_reason": "No thesis-break signal",
-      "critic_score": 94.0,
+      "action": "REVIEW / REDUCE",
+      "sell_reason": "Critic score below 35",
+      "critic_score": 10.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
     {
       "ticker": "ANET",
-      "action": "HOLD",
-      "sell_reason": "No thesis-break signal",
-      "critic_score": 86.0,
+      "action": "REVIEW / REDUCE",
+      "sell_reason": "Critic score below 35",
+      "critic_score": 15.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
     {
       "ticker": "CRWD",
-      "action": "HOLD",
-      "sell_reason": "No thesis-break signal",
-      "critic_score": 67.0,
+      "action": "REVIEW / REDUCE",
+      "sell_reason": "Critic score below 35",
+      "critic_score": 18.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
     {
       "ticker": "DDOG",
-      "action": "HOLD",
-      "sell_reason": "No thesis-break signal",
-      "critic_score": 87.0,
+      "action": "REVIEW / REDUCE",
+      "sell_reason": "Critic score below 35",
+      "critic_score": 18.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
     {
       "ticker": "MELI",
-      "action": "HOLD",
-      "sell_reason": "No thesis-break signal",
-      "critic_score": 54.0,
+      "action": "REVIEW / REDUCE",
+      "sell_reason": "Critic score below 35",
+      "critic_score": 12.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
     {
       "ticker": "NU",
-      "action": "HOLD",
-      "sell_reason": "No thesis-break signal",
-      "critic_score": 60.0,
+      "action": "REVIEW / REDUCE",
+      "sell_reason": "Critic score below 35",
+      "critic_score": 6.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
@@ -279,7 +246,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 24.0,
+      "critic_score": 0.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
@@ -287,15 +254,15 @@
       "ticker": "OKLO",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 8.0,
+      "critic_score": 0.0,
       "current_weight": 0.0,
       "max_weight": 0.04
     },
     {
       "ticker": "VRTX",
-      "action": "HOLD",
-      "sell_reason": "No thesis-break signal",
-      "critic_score": 74.0,
+      "action": "REVIEW / REDUCE",
+      "sell_reason": "Critic score below 35",
+      "critic_score": 16.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
