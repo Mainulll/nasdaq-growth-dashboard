@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T01:09:52.885285+00:00",
+  "generated_at": "2026-10-30T01:16:34.935106+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7056665420532227,
-  "fx_status": "AUD/USD 0.7057 live",
+  "audusd": 0.7025431990623474,
+  "fx_status": "AUD/USD 0.7025 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -28,7 +28,7 @@
     },
     {
       "ticker": "NVDA",
-      "score": 96.0,
+      "score": 95.0,
       "action": "Add",
       "warnings": [
         "Very high beta"
@@ -36,7 +36,7 @@
     },
     {
       "ticker": "ORCL",
-      "score": 69.0,
+      "score": 70.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Free cash flow is negative",
@@ -140,7 +140,7 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 948.87,
+      "allocation_aud": 953.41,
       "reason": "Underweight by 15.0%; critic score 91",
       "risk_class": "core",
       "agent_score": 91.0
@@ -148,15 +148,15 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 551.25,
-      "reason": "Underweight by 8.0%; critic score 96",
+      "allocation_aud": 544.8,
+      "reason": "Underweight by 8.0%; critic score 95",
       "risk_class": "aggressive",
-      "agent_score": 96.0
+      "agent_score": 95.0
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom",
-      "allocation_aud": 399.88,
+      "allocation_aud": 401.79,
       "reason": "Underweight by 6.0%; critic score 94",
       "risk_class": "aggressive",
       "agent_score": 94.0
@@ -191,7 +191,7 @@
       "ticker": "NVDA",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 96.0,
+      "critic_score": 95.0,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -199,7 +199,7 @@
       "ticker": "ORCL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 69.0,
+      "critic_score": 70.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
