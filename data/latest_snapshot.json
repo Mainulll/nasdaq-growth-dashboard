@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T01:16:34.935106+00:00",
+  "generated_at": "2026-10-31T00:58:12.697968+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,14 +9,14 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7025431990623474,
-  "fx_status": "AUD/USD 0.7025 live",
+  "audusd": 0.7027001976966858,
+  "fx_status": "AUD/USD 0.7027 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
     {
       "ticker": "QQQM",
-      "score": 91.0,
+      "score": 90.0,
       "action": "Add",
       "warnings": []
     },
@@ -51,13 +51,13 @@
     },
     {
       "ticker": "GOOGL",
-      "score": 85.0,
-      "action": "Add",
+      "score": 68.0,
+      "action": "Hold / add selectively",
       "warnings": []
     },
     {
       "ticker": "META",
-      "score": 84.0,
+      "score": 86.0,
       "action": "Add",
       "warnings": []
     },
@@ -140,15 +140,15 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 953.41,
-      "reason": "Underweight by 15.0%; critic score 91",
+      "allocation_aud": 944.85,
+      "reason": "Underweight by 15.0%; critic score 90",
       "risk_class": "core",
-      "agent_score": 91.0
+      "agent_score": 90.0
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 544.8,
+      "allocation_aud": 549.73,
       "reason": "Underweight by 8.0%; critic score 95",
       "risk_class": "aggressive",
       "agent_score": 95.0
@@ -156,7 +156,7 @@
     {
       "ticker": "AVGO",
       "name": "Broadcom",
-      "allocation_aud": 401.79,
+      "allocation_aud": 405.42,
       "reason": "Underweight by 6.0%; critic score 94",
       "risk_class": "aggressive",
       "agent_score": 94.0
@@ -175,7 +175,7 @@
       "ticker": "QQQM",
       "action": "HOLD",
       "sell_reason": "Core index sleeve: hold through drawdowns",
-      "critic_score": 91.0,
+      "critic_score": 90.0,
       "current_weight": 0.0,
       "max_weight": 0.2
     },
@@ -215,7 +215,7 @@
       "ticker": "GOOGL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 85.0,
+      "critic_score": 68.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -223,7 +223,7 @@
       "ticker": "META",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 84.0,
+      "critic_score": 86.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
