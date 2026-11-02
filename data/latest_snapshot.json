@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T00:58:12.697968+00:00",
+  "generated_at": "2026-11-02T01:17:36.993013+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7027001976966858,
-  "fx_status": "AUD/USD 0.7027 live",
+  "audusd": 0.703234851360321,
+  "fx_status": "AUD/USD 0.7032 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -22,13 +22,13 @@
     },
     {
       "ticker": "IWO",
-      "score": 78.25,
+      "score": 76.25,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "NVDA",
-      "score": 95.0,
+      "score": 93.0,
       "action": "Add",
       "warnings": [
         "Very high beta"
@@ -36,7 +36,7 @@
     },
     {
       "ticker": "ORCL",
-      "score": 70.0,
+      "score": 69.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Free cash flow is negative",
@@ -45,15 +45,20 @@
     },
     {
       "ticker": "AMZN",
-      "score": 75.0,
-      "action": "Add",
-      "warnings": []
+      "score": 51.0,
+      "action": "Hold / monitor",
+      "warnings": [
+        "Free cash flow is negative",
+        "Current ratio below 1"
+      ]
     },
     {
       "ticker": "GOOGL",
-      "score": 68.0,
+      "score": 65.0,
       "action": "Hold / add selectively",
-      "warnings": []
+      "warnings": [
+        "Free cash flow is negative"
+      ]
     },
     {
       "ticker": "META",
@@ -63,13 +68,13 @@
     },
     {
       "ticker": "AVGO",
-      "score": 94.0,
+      "score": 93.0,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "ANET",
-      "score": 86.0,
+      "score": 83.0,
       "action": "Add",
       "warnings": []
     },
@@ -131,7 +136,7 @@
     },
     {
       "ticker": "VRTX",
-      "score": 75.0,
+      "score": 77.0,
       "action": "Add",
       "warnings": []
     }
@@ -140,7 +145,7 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 944.85,
+      "allocation_aud": 957.54,
       "reason": "Underweight by 15.0%; critic score 90",
       "risk_class": "core",
       "agent_score": 90.0
@@ -148,18 +153,18 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 549.73,
-      "reason": "Underweight by 8.0%; critic score 95",
+      "allocation_aud": 538.55,
+      "reason": "Underweight by 8.0%; critic score 93",
       "risk_class": "aggressive",
-      "agent_score": 95.0
+      "agent_score": 93.0
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom",
-      "allocation_aud": 405.42,
-      "reason": "Underweight by 6.0%; critic score 94",
+      "allocation_aud": 403.91,
+      "reason": "Underweight by 6.0%; critic score 93",
       "risk_class": "aggressive",
-      "agent_score": 94.0
+      "agent_score": 93.0
     },
     {
       "ticker": "CASH",
@@ -183,7 +188,7 @@
       "ticker": "IWO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 78.25,
+      "critic_score": 76.25,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -191,7 +196,7 @@
       "ticker": "NVDA",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 95.0,
+      "critic_score": 93.0,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -199,7 +204,7 @@
       "ticker": "ORCL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 70.0,
+      "critic_score": 69.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -207,7 +212,7 @@
       "ticker": "AMZN",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 75.0,
+      "critic_score": 51.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -215,7 +220,7 @@
       "ticker": "GOOGL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 68.0,
+      "critic_score": 65.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -231,7 +236,7 @@
       "ticker": "AVGO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 94.0,
+      "critic_score": 93.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -239,7 +244,7 @@
       "ticker": "ANET",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 86.0,
+      "critic_score": 83.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -295,7 +300,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 75.0,
+      "critic_score": 77.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
