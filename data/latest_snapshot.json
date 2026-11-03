@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T01:17:36.993013+00:00",
+  "generated_at": "2026-11-03T03:00:39.445526+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,8 +9,8 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.703234851360321,
-  "fx_status": "AUD/USD 0.7032 live",
+  "audusd": 0.6999370455741882,
+  "fx_status": "AUD/USD 0.6999 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -54,7 +54,7 @@
     },
     {
       "ticker": "GOOGL",
-      "score": 65.0,
+      "score": 63.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Free cash flow is negative"
@@ -62,7 +62,7 @@
     },
     {
       "ticker": "META",
-      "score": 86.0,
+      "score": 84.0,
       "action": "Add",
       "warnings": []
     },
@@ -136,7 +136,7 @@
     },
     {
       "ticker": "VRTX",
-      "score": 77.0,
+      "score": 76.0,
       "action": "Add",
       "warnings": []
     }
@@ -220,7 +220,7 @@
       "ticker": "GOOGL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 65.0,
+      "critic_score": 63.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -228,7 +228,7 @@
       "ticker": "META",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 86.0,
+      "critic_score": 84.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -300,7 +300,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 77.0,
+      "critic_score": 76.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
