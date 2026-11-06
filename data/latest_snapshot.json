@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T01:42:24.012219+00:00",
+  "generated_at": "2026-11-06T01:43:42.696302+00:00",
   "regime": {
     "name": "Risk-on",
     "cash_target": 0.04,
@@ -9,14 +9,14 @@
       "50-day trend is above 200-day trend"
     ]
   },
-  "audusd": 0.7018036246299744,
-  "fx_status": "AUD/USD 0.7018 live",
+  "audusd": 0.6930967569351196,
+  "fx_status": "AUD/USD 0.6931 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
     {
       "ticker": "QQQM",
-      "score": 90.0,
+      "score": 88.0,
       "action": "Add",
       "warnings": []
     },
@@ -28,7 +28,7 @@
     },
     {
       "ticker": "NVDA",
-      "score": 95.0,
+      "score": 91.0,
       "action": "Add",
       "warnings": [
         "Very high beta"
@@ -54,7 +54,7 @@
     },
     {
       "ticker": "GOOGL",
-      "score": 63.0,
+      "score": 65.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Free cash flow is negative"
@@ -74,7 +74,7 @@
     },
     {
       "ticker": "ANET",
-      "score": 83.0,
+      "score": 92.0,
       "action": "Add",
       "warnings": []
     },
@@ -89,11 +89,9 @@
     },
     {
       "ticker": "DDOG",
-      "score": 87.0,
+      "score": 84.0,
       "action": "Add",
-      "warnings": [
-        "Forward P/E embeds high expectations"
-      ]
+      "warnings": []
     },
     {
       "ticker": "MELI",
@@ -136,7 +134,7 @@
     },
     {
       "ticker": "VRTX",
-      "score": 62.0,
+      "score": 70.0,
       "action": "Hold / add selectively",
       "warnings": []
     }
@@ -145,23 +143,23 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 948.28,
-      "reason": "Underweight by 15.0%; critic score 90",
+      "allocation_aud": 949.4,
+      "reason": "Underweight by 15.0%; critic score 88",
       "risk_class": "core",
-      "agent_score": 90.0
+      "agent_score": 88.0
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 551.72,
-      "reason": "Underweight by 8.0%; critic score 95",
+      "allocation_aud": 535.01,
+      "reason": "Underweight by 8.0%; critic score 91",
       "risk_class": "aggressive",
-      "agent_score": 95.0
+      "agent_score": 91.0
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom",
-      "allocation_aud": 400.0,
+      "allocation_aud": 415.59,
       "reason": "Underweight by 6.0%; critic score 93",
       "risk_class": "aggressive",
       "agent_score": 93.0
@@ -180,7 +178,7 @@
       "ticker": "QQQM",
       "action": "HOLD",
       "sell_reason": "Core index sleeve: hold through drawdowns",
-      "critic_score": 90.0,
+      "critic_score": 88.0,
       "current_weight": 0.0,
       "max_weight": 0.2
     },
@@ -196,7 +194,7 @@
       "ticker": "NVDA",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 95.0,
+      "critic_score": 91.0,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -220,7 +218,7 @@
       "ticker": "GOOGL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 63.0,
+      "critic_score": 65.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -244,7 +242,7 @@
       "ticker": "ANET",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 83.0,
+      "critic_score": 92.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -260,7 +258,7 @@
       "ticker": "DDOG",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 87.0,
+      "critic_score": 84.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
@@ -300,7 +298,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 62.0,
+      "critic_score": 70.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
