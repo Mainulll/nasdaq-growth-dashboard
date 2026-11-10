@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-11-07T01:04:01.425233+00:00",
+  "generated_at": "2026-11-10T03:44:28.552057+00:00",
   "regime": {
-    "name": "Neutral",
-    "cash_target": 0.15,
-    "invested_fraction": 0.7,
+    "name": "Risk-off",
+    "cash_target": 0.25,
+    "invested_fraction": 0.45,
     "reasons": [
       "QQQ is below its 200-day average",
-      "50-day trend is above 200-day trend"
+      "50-day trend is above 200-day trend",
+      "Annualised 20-day volatility is 35.3%"
     ]
   },
-  "audusd": 0.6868131756782532,
-  "fx_status": "AUD/USD 0.6868 live",
+  "audusd": 0.6920415163040161,
+  "fx_status": "AUD/USD 0.6920 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -62,7 +63,7 @@
     },
     {
       "ticker": "META",
-      "score": 84.0,
+      "score": 88.0,
       "action": "Add",
       "warnings": []
     },
@@ -74,7 +75,7 @@
     },
     {
       "ticker": "ANET",
-      "score": 91.0,
+      "score": 95.0,
       "action": "Add",
       "warnings": []
     },
@@ -89,7 +90,7 @@
     },
     {
       "ticker": "DDOG",
-      "score": 82.0,
+      "score": 80.0,
       "action": "Add",
       "warnings": []
     },
@@ -111,7 +112,7 @@
     },
     {
       "ticker": "RKLB",
-      "score": 25.0,
+      "score": 28.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
@@ -136,43 +137,35 @@
     },
     {
       "ticker": "VRTX",
-      "score": 70.0,
+      "score": 71.0,
       "action": "Hold / add selectively",
       "warnings": []
     }
   ],
   "monthly_allocation": [
     {
+      "ticker": "CASH",
+      "name": "Cash reserve",
+      "allocation_aud": 1100.0,
+      "reason": "Risk-off cash throttle",
+      "risk_class": "cash",
+      "agent_score": null
+    },
+    {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 699.56,
+      "allocation_aud": 575.62,
       "reason": "Underweight by 15.0%; critic score 88",
       "risk_class": "core",
       "agent_score": 88.0
     },
     {
-      "ticker": "CASH",
-      "name": "Cash reserve",
-      "allocation_aud": 600.0,
-      "reason": "Neutral cash throttle",
-      "risk_class": "cash",
-      "agent_score": null
-    },
-    {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 394.22,
+      "allocation_aud": 324.38,
       "reason": "Underweight by 8.0%; critic score 91",
       "risk_class": "aggressive",
       "agent_score": 91.0
-    },
-    {
-      "ticker": "AVGO",
-      "name": "Broadcom",
-      "allocation_aud": 306.22,
-      "reason": "Underweight by 6.0%; critic score 93",
-      "risk_class": "aggressive",
-      "agent_score": 93.0
     }
   ],
   "sell_review": [
@@ -228,7 +221,7 @@
       "ticker": "META",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 84.0,
+      "critic_score": 88.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -244,7 +237,7 @@
       "ticker": "ANET",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 91.0,
+      "critic_score": 95.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -260,7 +253,7 @@
       "ticker": "DDOG",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 82.0,
+      "critic_score": 80.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
@@ -284,7 +277,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 25.0,
+      "critic_score": 28.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
@@ -300,7 +293,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 70.0,
+      "critic_score": 71.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
