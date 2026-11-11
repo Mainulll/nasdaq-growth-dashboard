@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T03:44:28.552057+00:00",
+  "generated_at": "2026-11-11T01:24:03.190532+00:00",
   "regime": {
     "name": "Risk-off",
     "cash_target": 0.25,
@@ -10,8 +10,8 @@
       "Annualised 20-day volatility is 35.3%"
     ]
   },
-  "audusd": 0.6920415163040161,
-  "fx_status": "AUD/USD 0.6920 live",
+  "audusd": 0.6878052353858948,
+  "fx_status": "AUD/USD 0.6878 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -112,13 +112,12 @@
     },
     {
       "ticker": "RKLB",
-      "score": 28.0,
+      "score": 29.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
         "Free cash flow is negative",
         "Forward P/E embeds high expectations",
-        "Very high beta",
         "Speculative sleeve: execution and financing risk dominate",
         "Negative operating margin and free cash flow"
       ]
@@ -277,7 +276,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 28.0,
+      "critic_score": 29.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
