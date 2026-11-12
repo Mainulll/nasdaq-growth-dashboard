@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T01:24:03.190532+00:00",
+  "generated_at": "2026-11-12T02:24:06.020156+00:00",
   "regime": {
     "name": "Risk-off",
     "cash_target": 0.25,
@@ -10,8 +10,8 @@
       "Annualised 20-day volatility is 35.3%"
     ]
   },
-  "audusd": 0.6878052353858948,
-  "fx_status": "AUD/USD 0.6878 live",
+  "audusd": 0.6847907900810242,
+  "fx_status": "AUD/USD 0.6848 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -29,7 +29,7 @@
     },
     {
       "ticker": "NVDA",
-      "score": 91.0,
+      "score": 90.0,
       "action": "Add",
       "warnings": [
         "Very high beta"
@@ -46,7 +46,7 @@
     },
     {
       "ticker": "AMZN",
-      "score": 51.0,
+      "score": 53.0,
       "action": "Hold / monitor",
       "warnings": [
         "Free cash flow is negative",
@@ -75,7 +75,7 @@
     },
     {
       "ticker": "ANET",
-      "score": 95.0,
+      "score": 94.0,
       "action": "Add",
       "warnings": []
     },
@@ -112,12 +112,13 @@
     },
     {
       "ticker": "RKLB",
-      "score": 29.0,
+      "score": 28.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
         "Free cash flow is negative",
         "Forward P/E embeds high expectations",
+        "Very high beta",
         "Speculative sleeve: execution and financing risk dominate",
         "Negative operating margin and free cash flow"
       ]
@@ -153,7 +154,7 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 575.62,
+      "allocation_aud": 579.35,
       "reason": "Underweight by 15.0%; critic score 88",
       "risk_class": "core",
       "agent_score": 88.0
@@ -161,10 +162,10 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 324.38,
-      "reason": "Underweight by 8.0%; critic score 91",
+      "allocation_aud": 320.65,
+      "reason": "Underweight by 8.0%; critic score 90",
       "risk_class": "aggressive",
-      "agent_score": 91.0
+      "agent_score": 90.0
     }
   ],
   "sell_review": [
@@ -188,7 +189,7 @@
       "ticker": "NVDA",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 91.0,
+      "critic_score": 90.0,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -204,7 +205,7 @@
       "ticker": "AMZN",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 51.0,
+      "critic_score": 53.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -236,7 +237,7 @@
       "ticker": "ANET",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 95.0,
+      "critic_score": 94.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -276,7 +277,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 29.0,
+      "critic_score": 28.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
