@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-12T02:24:06.020156+00:00",
+  "generated_at": "2026-11-13T02:02:06.400640+00:00",
   "regime": {
-    "name": "Risk-off",
-    "cash_target": 0.25,
-    "invested_fraction": 0.45,
+    "name": "Constructive",
+    "cash_target": 0.08,
+    "invested_fraction": 0.85,
     "reasons": [
-      "QQQ is below its 200-day average",
+      "QQQ is above its 200-day average",
       "50-day trend is above 200-day trend",
-      "Annualised 20-day volatility is 35.3%"
+      "Annualised 20-day volatility is 36.2%"
     ]
   },
-  "audusd": 0.6847907900810242,
-  "fx_status": "AUD/USD 0.6848 live",
+  "audusd": 0.6814774870872498,
+  "fx_status": "AUD/USD 0.6815 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -46,7 +46,7 @@
     },
     {
       "ticker": "AMZN",
-      "score": 53.0,
+      "score": 51.0,
       "action": "Hold / monitor",
       "warnings": [
         "Free cash flow is negative",
@@ -63,19 +63,19 @@
     },
     {
       "ticker": "META",
-      "score": 88.0,
+      "score": 86.0,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "AVGO",
-      "score": 93.0,
+      "score": 94.0,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "ANET",
-      "score": 94.0,
+      "score": 95.0,
       "action": "Add",
       "warnings": []
     },
@@ -137,24 +137,16 @@
     },
     {
       "ticker": "VRTX",
-      "score": 71.0,
+      "score": 70.0,
       "action": "Hold / add selectively",
       "warnings": []
     }
   ],
   "monthly_allocation": [
     {
-      "ticker": "CASH",
-      "name": "Cash reserve",
-      "allocation_aud": 1100.0,
-      "reason": "Risk-off cash throttle",
-      "risk_class": "cash",
-      "agent_score": null
-    },
-    {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 579.35,
+      "allocation_aud": 850.53,
       "reason": "Underweight by 15.0%; critic score 88",
       "risk_class": "core",
       "agent_score": 88.0
@@ -162,10 +154,26 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 320.65,
+      "allocation_aud": 470.74,
       "reason": "Underweight by 8.0%; critic score 90",
       "risk_class": "aggressive",
       "agent_score": 90.0
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "allocation_aud": 378.73,
+      "reason": "Underweight by 6.0%; critic score 94",
+      "risk_class": "aggressive",
+      "agent_score": 94.0
+    },
+    {
+      "ticker": "CASH",
+      "name": "Cash reserve",
+      "allocation_aud": 300.0,
+      "reason": "Constructive cash throttle",
+      "risk_class": "cash",
+      "agent_score": null
     }
   ],
   "sell_review": [
@@ -205,7 +213,7 @@
       "ticker": "AMZN",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 53.0,
+      "critic_score": 51.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -221,7 +229,7 @@
       "ticker": "META",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 88.0,
+      "critic_score": 86.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -229,7 +237,7 @@
       "ticker": "AVGO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 93.0,
+      "critic_score": 94.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -237,7 +245,7 @@
       "ticker": "ANET",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 94.0,
+      "critic_score": 95.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -293,7 +301,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 71.0,
+      "critic_score": 70.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
