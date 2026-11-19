@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T03:03:57.173911+00:00",
+  "generated_at": "2026-11-19T02:43:54.333414+00:00",
   "regime": {
     "name": "Risk-off",
     "cash_target": 0.25,
@@ -7,11 +7,11 @@
     "reasons": [
       "QQQ is below its 200-day average",
       "50-day trend is above 200-day trend",
-      "Annualised 20-day volatility is 36.0%"
+      "Annualised 20-day volatility is 35.8%"
     ]
   },
-  "audusd": 0.6726759076118469,
-  "fx_status": "AUD/USD 0.6727 live",
+  "audusd": 0.6674230694770813,
+  "fx_status": "AUD/USD 0.6674 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -46,7 +46,7 @@
     },
     {
       "ticker": "AMZN",
-      "score": 51.0,
+      "score": 53.0,
       "action": "Hold / monitor",
       "warnings": [
         "Free cash flow is negative",
@@ -55,7 +55,7 @@
     },
     {
       "ticker": "GOOGL",
-      "score": 65.0,
+      "score": 63.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Free cash flow is negative"
@@ -104,7 +104,7 @@
     },
     {
       "ticker": "NU",
-      "score": 58.0,
+      "score": 56.0,
       "action": "Hold / monitor",
       "warnings": [
         "Speculative sleeve: execution and financing risk dominate"
@@ -205,7 +205,7 @@
       "ticker": "AMZN",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 51.0,
+      "critic_score": 53.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -213,7 +213,7 @@
       "ticker": "GOOGL",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 65.0,
+      "critic_score": 63.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -269,7 +269,7 @@
       "ticker": "NU",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 58.0,
+      "critic_score": 56.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
