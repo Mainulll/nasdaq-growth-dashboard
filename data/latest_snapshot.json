@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T02:43:54.333414+00:00",
+  "generated_at": "2026-11-20T02:30:33.689681+00:00",
   "regime": {
     "name": "Risk-off",
     "cash_target": 0.25,
@@ -7,29 +7,29 @@
     "reasons": [
       "QQQ is below its 200-day average",
       "50-day trend is above 200-day trend",
-      "Annualised 20-day volatility is 35.8%"
+      "Annualised 20-day volatility is 35.2%"
     ]
   },
-  "audusd": 0.6674230694770813,
-  "fx_status": "AUD/USD 0.6674 live",
+  "audusd": 0.6658676266670227,
+  "fx_status": "AUD/USD 0.6659 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
     {
       "ticker": "QQQM",
-      "score": 88.0,
+      "score": 82.0,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "IWO",
-      "score": 76.25,
-      "action": "Add",
+      "score": 70.25,
+      "action": "Hold / add selectively",
       "warnings": []
     },
     {
       "ticker": "NVDA",
-      "score": 90.0,
+      "score": 94.0,
       "action": "Add",
       "warnings": [
         "Very high beta"
@@ -46,7 +46,7 @@
     },
     {
       "ticker": "AMZN",
-      "score": 53.0,
+      "score": 52.0,
       "action": "Hold / monitor",
       "warnings": [
         "Free cash flow is negative",
@@ -63,7 +63,7 @@
     },
     {
       "ticker": "META",
-      "score": 88.0,
+      "score": 82.0,
       "action": "Add",
       "warnings": []
     },
@@ -75,14 +75,14 @@
     },
     {
       "ticker": "ANET",
-      "score": 95.0,
+      "score": 85.0,
       "action": "Add",
       "warnings": []
     },
     {
       "ticker": "CRWD",
-      "score": 67.0,
-      "action": "Hold / add selectively",
+      "score": 57.0,
+      "action": "Hold / monitor",
       "warnings": [
         "Operating margin is negative",
         "Forward P/E embeds high expectations"
@@ -90,7 +90,7 @@
     },
     {
       "ticker": "DDOG",
-      "score": 79.0,
+      "score": 78.0,
       "action": "Add",
       "warnings": []
     },
@@ -104,7 +104,7 @@
     },
     {
       "ticker": "NU",
-      "score": 56.0,
+      "score": 55.0,
       "action": "Hold / monitor",
       "warnings": [
         "Speculative sleeve: execution and financing risk dominate"
@@ -112,7 +112,7 @@
     },
     {
       "ticker": "RKLB",
-      "score": 28.0,
+      "score": 24.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
@@ -154,18 +154,18 @@
     {
       "ticker": "QQQM",
       "name": "Invesco NASDAQ 100 ETF",
-      "allocation_aud": 579.35,
-      "reason": "Underweight by 15.0%; critic score 88",
+      "allocation_aud": 539.08,
+      "reason": "Underweight by 15.0%; critic score 82",
       "risk_class": "core",
-      "agent_score": 88.0
+      "agent_score": 82.0
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "allocation_aud": 320.65,
-      "reason": "Underweight by 8.0%; critic score 90",
+      "allocation_aud": 360.92,
+      "reason": "Underweight by 8.0%; critic score 94",
       "risk_class": "aggressive",
-      "agent_score": 90.0
+      "agent_score": 94.0
     }
   ],
   "sell_review": [
@@ -173,7 +173,7 @@
       "ticker": "QQQM",
       "action": "HOLD",
       "sell_reason": "Core index sleeve: hold through drawdowns",
-      "critic_score": 88.0,
+      "critic_score": 82.0,
       "current_weight": 0.0,
       "max_weight": 0.2
     },
@@ -181,7 +181,7 @@
       "ticker": "IWO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 76.25,
+      "critic_score": 70.25,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -189,7 +189,7 @@
       "ticker": "NVDA",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 90.0,
+      "critic_score": 94.0,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -205,7 +205,7 @@
       "ticker": "AMZN",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 53.0,
+      "critic_score": 52.0,
       "current_weight": 0.0,
       "max_weight": 0.09
     },
@@ -221,7 +221,7 @@
       "ticker": "META",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 88.0,
+      "critic_score": 82.0,
       "current_weight": 0.0,
       "max_weight": 0.08
     },
@@ -237,7 +237,7 @@
       "ticker": "ANET",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 95.0,
+      "critic_score": 85.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -245,7 +245,7 @@
       "ticker": "CRWD",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 67.0,
+      "critic_score": 57.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -253,7 +253,7 @@
       "ticker": "DDOG",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 79.0,
+      "critic_score": 78.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
@@ -269,7 +269,7 @@
       "ticker": "NU",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 56.0,
+      "critic_score": 55.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
@@ -277,7 +277,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 28.0,
+      "critic_score": 24.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
