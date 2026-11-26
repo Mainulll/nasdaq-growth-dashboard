@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T04:30:05.736207+00:00",
+  "generated_at": "2026-11-26T03:42:43.001888+00:00",
   "regime": {
     "name": "Risk-off",
     "cash_target": 0.25,
@@ -7,11 +7,11 @@
     "reasons": [
       "QQQ is below its 200-day average",
       "50-day trend is above 200-day trend",
-      "Annualised 20-day volatility is 47.9%"
+      "Annualised 20-day volatility is 47.7%"
     ]
   },
-  "audusd": 0.6604147553443909,
-  "fx_status": "AUD/USD 0.6604 live",
+  "audusd": 0.664142906665802,
+  "fx_status": "AUD/USD 0.6641 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -23,8 +23,8 @@
     },
     {
       "ticker": "IWO",
-      "score": 76.25,
-      "action": "Add",
+      "score": 72.25,
+      "action": "Hold / add selectively",
       "warnings": []
     },
     {
@@ -81,7 +81,7 @@
     },
     {
       "ticker": "CRWD",
-      "score": 62.0,
+      "score": 66.0,
       "action": "Hold / add selectively",
       "warnings": [
         "Operating margin is negative",
@@ -90,7 +90,7 @@
     },
     {
       "ticker": "DDOG",
-      "score": 81.0,
+      "score": 79.0,
       "action": "Add",
       "warnings": []
     },
@@ -181,7 +181,7 @@
       "ticker": "IWO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 76.25,
+      "critic_score": 72.25,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
@@ -245,7 +245,7 @@
       "ticker": "CRWD",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 62.0,
+      "critic_score": 66.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
@@ -253,7 +253,7 @@
       "ticker": "DDOG",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 81.0,
+      "critic_score": 79.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
