@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T03:42:43.001888+00:00",
+  "generated_at": "2026-11-27T03:43:44.666042+00:00",
   "regime": {
     "name": "Risk-off",
     "cash_target": 0.25,
@@ -10,8 +10,8 @@
       "Annualised 20-day volatility is 47.7%"
     ]
   },
-  "audusd": 0.664142906665802,
-  "fx_status": "AUD/USD 0.6641 live",
+  "audusd": 0.666400134563446,
+  "fx_status": "AUD/USD 0.6664 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -23,8 +23,8 @@
     },
     {
       "ticker": "IWO",
-      "score": 72.25,
-      "action": "Hold / add selectively",
+      "score": 76.25,
+      "action": "Add",
       "warnings": []
     },
     {
@@ -181,7 +181,7 @@
       "ticker": "IWO",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 72.25,
+      "critic_score": 76.25,
       "current_weight": 0.0,
       "max_weight": 0.1
     },
