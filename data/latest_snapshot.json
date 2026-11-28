@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T03:43:44.666042+00:00",
+  "generated_at": "2026-11-28T03:27:04.207557+00:00",
   "regime": {
     "name": "Risk-off",
     "cash_target": 0.25,
@@ -7,11 +7,11 @@
     "reasons": [
       "QQQ is below its 200-day average",
       "50-day trend is above 200-day trend",
-      "Annualised 20-day volatility is 47.7%"
+      "Annualised 20-day volatility is 49.0%"
     ]
   },
-  "audusd": 0.666400134563446,
-  "fx_status": "AUD/USD 0.6664 live",
+  "audusd": 0.6650704741477966,
+  "fx_status": "AUD/USD 0.6651 live",
   "data_status": "Suitable for research; quotes may be delayed or adjusted",
   "live_status": "No FINNHUB_API_KEY configured",
   "scores": [
@@ -90,7 +90,7 @@
     },
     {
       "ticker": "DDOG",
-      "score": 79.0,
+      "score": 81.0,
       "action": "Add",
       "warnings": []
     },
@@ -112,7 +112,7 @@
     },
     {
       "ticker": "RKLB",
-      "score": 27.0,
+      "score": 28.0,
       "action": "Reduce / avoid",
       "warnings": [
         "Operating margin is negative",
@@ -137,7 +137,7 @@
     },
     {
       "ticker": "VRTX",
-      "score": 71.0,
+      "score": 70.0,
       "action": "Hold / add selectively",
       "warnings": []
     }
@@ -253,7 +253,7 @@
       "ticker": "DDOG",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 79.0,
+      "critic_score": 81.0,
       "current_weight": 0.0,
       "max_weight": 0.06
     },
@@ -277,7 +277,7 @@
       "ticker": "RKLB",
       "action": "REVIEW / REDUCE",
       "sell_reason": "Critic score below 35",
-      "critic_score": 27.0,
+      "critic_score": 28.0,
       "current_weight": 0.0,
       "max_weight": 0.05
     },
@@ -293,7 +293,7 @@
       "ticker": "VRTX",
       "action": "HOLD",
       "sell_reason": "No thesis-break signal",
-      "critic_score": 71.0,
+      "critic_score": 70.0,
       "current_weight": 0.0,
       "max_weight": 0.07
     },
